@@ -88,10 +88,16 @@
             android:layout_gravity="left"
             android:scaleType="fitCenter"
             android:layout_height="150dp"
+android:onClick="sos"
             app:srcCompat="@drawable/ic_sos_warning_icon"
             android:layout_weight="0.21" />
         >
     </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="settings"
+        android:onClick="settings"/>
 
 
 </LinearLayout>
