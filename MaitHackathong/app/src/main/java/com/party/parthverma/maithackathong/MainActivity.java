@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar myToolbar=(Toolbar)findViewById(R.id.my_toolbar);
+
         setSupportActionBar(myToolbar);
         getSupportActionBar().setTitle("Safe");
         ActionBar ab= getSupportActionBar();
-        ab.setDisplayHomeAsUpEnabled(true);
 
         Log.d("ABDHABAKS:",Integer.toString(Build.VERSION.SDK_INT));
         if(Build.VERSION.SDK_INT>22)
@@ -120,7 +120,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void sos(View view)
     {
-        Intent intent= new Intent(this,sos.class);}
+        Intent intent= new Intent(this,sos.class);
+    startActivity(intent);}
     public void goToFirstAids(View view) {
         Intent intent = new Intent(this, FirstAid.class);
         startActivity(intent);
