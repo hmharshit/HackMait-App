@@ -2,6 +2,7 @@ package com.party.parthverma.maithackathong;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.location.Location;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,9 +10,17 @@ import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.LocationServices;
+
 public class sos extends AppCompatActivity {
 
-    MediaPlayer mp = MediaPlayer.create(this, R.drawable.ic_ambulance_icon);
+    GoogleApiClient mGoogleApiClient;
+    Location mLastLocation;
+    String lat,lng;
+
+    MediaPlayer mp = MediaPlayer.create(this, R.raw.videoplayback);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,10 +30,6 @@ public class sos extends AppCompatActivity {
         mp.setVolume(100,100);
         mp.start();
         SQLiteDatabase mydatabase = openOrCreateDatabase("Safe",MODE_PRIVATE,null);
-
-        //get current location
-
-        float lat=0,lng =0;
 
         String map = "";
 
