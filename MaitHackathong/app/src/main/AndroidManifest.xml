@@ -3,9 +3,12 @@
     package="com.party.parthverma.maithackathong">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+=======
+>>>>>>> firstaid
 
     <application
         android:allowBackup="true"
@@ -40,7 +43,12 @@
         <activity
             android:name=".settings"
             android:theme="@style/AppTheme" />
-        <activity android:name=".sos"/>
+        <activity android:name=".sos"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".FirstAid"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Remedy"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
