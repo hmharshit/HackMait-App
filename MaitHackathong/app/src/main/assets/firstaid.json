@@ -1,0 +1,284 @@
+{
+  "items": [
+    {
+      "title": "Bleeding",
+      "url": "https://cdn.instructables.com/FSV/4RRP/HSRZOHGX/FSV4RRPHSRZOHGX.MEDIUM.jpg",
+      "subtopic": [
+        {
+          "title": "Heavy",
+          "url": "https://s3.scoopwhoop.com/anj/saw/226608631.jpg",
+          "remedy": [
+            {
+              "text": "Get help",
+              "pic": "http://www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-1-Version-2.jpg"
+            },
+            {
+              "text": "Evaluate the injured person ",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Clear the wound site",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Apply pressure",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Secure the bandage",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Medium",
+          "url": "https://vectortoons.com/wp-content/uploads/2015/05/beaten-up-collection-michael-002.jpg",
+          "remedy": [
+            {
+              "text": "Get help",
+              "pic": "http://www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-1-Version-2.jpg"
+            },
+            {
+              "text": "Evaluate the injured person ",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Clear the wound site",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Apply pressure",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Secure the bandage",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Light",
+          "url": "https://s-media-cache-ak0.pinimg.com/236x/c8/ed/ac/c8edaca799c9801397baca53ba282035.jpg",
+          "remedy": [
+            {
+              "text": "Get help",
+              "pic": "http://www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-1-Version-2.jpg"
+            },
+            {
+              "text": "Evaluate the injured person ",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Clear the wound site",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Apply pressure",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Secure the bandage",
+              "pic": "www.wikihow.com/Treat-Severe-Bleeding-During-First-Aid#/Image:Treat-Severe-Bleeding-During-First-Aid-Step-2-Version-2.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wounds",
+      "url": "http://images.wisegeek.com/bandaged-hand-injury.jpg",
+      "subtopic": [
+        {
+          "title": "Scraps",
+          "url": "https://i.ytimg.com/vi/L77rERL64zc/maxresdefault.jpg",
+          "remedy": [
+            {
+              "text": "Wash your hands",
+              "pic": "http://www.wikihow.com/Treat-a-Deep-Scrape#/Image:Treat-a-Deep-Scrape-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Rinse with water",
+              "pic": "http://www.wikihow.com/Treat-a-Deep-Scrape#/Image:Treat-a-Deep-Scrape-Step-3-Version-2.jpg"
+            },
+            {
+              "text": "Apply pressure",
+              "pic": "http://www.wikihow.com/Treat-a-Deep-Scrape#/Image:Treat-a-Deep-Scrape-Step-4-Version-2.jpg"
+            },
+            {
+              "text": "Seek medical attention",
+              "pic": "http://www.wikihow.com/Treat-a-Deep-Scrape#/Image:Treat-a-Deep-Scrape-Step-5-Version-2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Cut",
+          "url": "https://image.shutterstock.com/z/stock-vector-first-aid-finger-injury-cartoon-vector-and-illustration-hand-drawn-style-isolated-on-white-231768577.jpg",
+          "remedy": [
+            {
+              "text": "Decide if you should treat the cut yourself.",
+              "pic": "http://www.wikihow.com/Treat-a-Minor-Cut#/Image:Treat-a-Minor-Cut-Step-1-Version-2.jpg"
+            },
+            {
+              "text": "Wait for minor bleeding to stop.",
+              "pic": "http://www.wikihow.com/Treat-a-Minor-Cut#/Image:Treat-a-Minor-Cut-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Apply pressure",
+              "pic": "http://www.wikihow.com/Treat-a-Minor-Cut#/Image:Treat-a-Minor-Cut-Step-3-Version-2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Body Part Cut Off",
+          "url": "http://www.wikihow.com/images/c/cc/Treat-a-Wound-Step-10.jpg",
+          "remedy": [
+            {
+              "text": "Wash your cut part ",
+              "pic": "http://www.wikihow.com/Heal-Cuts-Quickly-(Using-Easy,-Natural-Items)#/Image:Heal-Cuts-Quickly-(Using-Easy,-Natural-Items)-Step-2-Version-4.jpg"
+            },
+            {
+              "text": "Wash the cut with mild soap and water.",
+              "pic": "http://www.wikihow.com/Heal-Cuts-Quickly-(Using-Easy,-Natural-Items)#/Image:Heal-Cuts-Quickly-(Using-Easy,-Natural-Items)-Step-4-Version-4.jpg"
+            },
+            {
+              "text": "Stop the bleeding",
+              "pic": "http://www.wikihow.com/Heal-Cuts-Quickly-(Using-Easy,-Natural-Items)#/Image:Heal-Cuts-Quickly-(Using-Easy,-Natural-Items)-Step-5-Version-4.jpg"
+            },
+            {
+              "text": "Rinse again with a saline solution (if available)",
+              "pic": "http://www.wikihow.com/Heal-Cuts-Quickly-(Using-Easy,-Natural-Items)#/Image:Heal-Cuts-Quickly-(Using-Easy,-Natural-Items)-Step-6-Version-4.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Others",
+      "url": "https://cdn.instructables.com/FSV/4RRP/HSRZOHGX/FSV4RRPHSRZOHGX.MEDIUM.jpg",
+      "subtopic": [
+        {
+          "title": "Burn",
+          "url": "https://d140vvwqovffrf.cloudfront.net/images/chapters/@2x-artwork/2158.jpg",
+          "remedy": [
+            {
+              "text": "Determine whether you have a first-degree burn",
+              "pic": "http://www.wikihow.com/Treat-Minor-Burns#/Image:Treat-Minor-Burns-Step-1-Version-3.jpg"
+            },
+            {
+              "text": "Determine whether you have a second-degree burn",
+              "pic": "http://www.wikihow.com/Treat-Minor-Burns#/Image:Treat-Minor-Burns-Step-1-Version-3.jpg"
+            },
+            {
+              "text": "Determine whether you have a third-degree burn",
+              "pic": "http://www.wikihow.com/Treat-Minor-Burns#/Image:Treat-Minor-Burns-Step-3-Version-3.jpg"
+            },
+            {
+              "text": "Seek medical care if needed.",
+              "pic": "http://www.wikihow.com/Treat-Minor-Burns#/Image:Treat-Minor-Burns-Step-4-Version-3.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Bone Fracture",
+          "url": "http://www.clipartkid.com/images/130/10-broken-bone-clipart-free-cliparts-that-you-can-download-to-you-t9CIaz-clipart.gif",
+          "remedy": [
+            {
+              "text": "See a doctor immediately.",
+              "pic": "http://www.wikihow.com/Heal-Broken-Bones#/Image:Heal-Broken-Bones-Step-1-Version-2.jpg"
+            },
+            {
+              "text": "Get a cast or support.",
+              "pic": "http://www.wikihow.com/Heal-Broken-Bones#/Image:Heal-Broken-Bones-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Take medications",
+              "pic": "http://www.wikihow.com/Heal-Broken-Bones#/Image:Heal-Broken-Bones-Step-3-Version-2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Bug Sting",
+          "url": "http://www.fdnysmart.org/wp-content/uploads/2015/07/beeSting.gif",
+          "remedy": [
+            {
+              "text": "Remove the stinger",
+              "pic": "http://www.wikihow.com/Cure-Insect-Stings#/Image:Cure-Insect-Stings-Step-2-Version-2.jpg"
+            },
+            {
+              "pic": "",
+              "text": "Remove the stinger"
+            },
+            {
+              "text": "Wash the wound.",
+              "pic": "http://www.wikihow.com/Cure-Insect-Stings#/Image:Cure-Insect-Stings-Step-3-Version-2.jpg"
+            },
+            {
+              "text": "Treat the wound",
+              "pic": "http://www.wikihow.com/Cure-Insect-Stings#/Image:Cure-Insect-Stings-Step-4-Version-2.jpg"
+            },
+            {
+              "text": "Know what the symptoms of a sting are",
+              "pic": "http://www.wikihow.com/Cure-Insect-Stings#/Image:Cure-Insect-Stings-Step-5-Version-2.jpg"
+            },
+            {
+              "text": "Watch the sting closely",
+              "pic": "http://www.wikihow.com/Cure-Insect-Stings#/Image:Cure-Insect-Stings-Step-6-Version-2.jpg"
+            },
+            {
+              "text": "Visit a physician or an allergist.",
+              "pic": "http://www.wikihow.com/Cure-Insect-Stings#/Image:Cure-Insect-Stings-Step-7-Version-2.jpg"
+            },
+            {
+              "text": "Use an epinephrine pen if you have a severe allergic reaction.",
+              "pic": "http://www.wikihow.com/Cure-Insect-Stings#/Image:Cure-Insect-Stings-Step-8-Version-2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Bone Fracture",
+          "url": "http://www.clipartkid.com/images/130/10-broken-bone-clipart-free-cliparts-that-you-can-download-to-you-t9CIaz-clipart.gif",
+          "remedy": [
+            {
+              "text": "See a doctor immediately.",
+              "pic": "http://www.wikihow.com/Heal-Broken-Bones#/Image:Heal-Broken-Bones-Step-1-Version-2.jpg"
+            },
+            {
+              "text": "Get a cast or support.",
+              "pic": "http://www.wikihow.com/Heal-Broken-Bones#/Image:Heal-Broken-Bones-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Take medications",
+              "pic": "http://www.wikihow.com/Heal-Broken-Bones#/Image:Heal-Broken-Bones-Step-3-Version-2.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Faint",
+          "url": "https://img.clipartfest.com/39ea63627c0f2cc5782732d757a294fa_faint-clip-art-of-faint-clipart_1008-1024.jpeg",
+          "remedy": [
+            {
+              "text": "If you can, lay down",
+              "pic": "http://www.wikihow.com/Cure-Feeling-Like-You%27re-About-to-Faint#/Image:Cure-Feeling-Like-You%27re-About-to-Faint-Step-1-Version-2.jpg"
+            },
+            {
+              "text": "If you can’t lay down, sit down with your knees up, and put your head between your legs.",
+              "pic": "http://www.wikihow.com/Cure-Feeling-Like-You%27re-About-to-Faint#/Image:Cure-Feeling-Like-You%27re-About-to-Faint-Step-2-Version-2.jpg"
+            },
+            {
+              "text": "Drink water, sports drinks, or juices",
+              "pic": "http://www.wikihow.com/Cure-Feeling-Like-You%27re-About-to-Faint#/Image:Cure-Feeling-Like-You%27re-About-to-Faint-Step-3-Version-2.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+

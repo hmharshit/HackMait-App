@@ -60,4 +60,8 @@ public class MainActivity extends AppCompatActivity {
         if(permission == PackageManager.PERMISSION_GRANTED)
             startActivity(intent);
     }
+    public void goToFirstAids(View view) {
+        Intent intent = new Intent(this, FirstAid.class);
+        startActivity(intent);
+    }
 }
