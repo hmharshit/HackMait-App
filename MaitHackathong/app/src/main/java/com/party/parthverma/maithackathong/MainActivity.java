@@ -3,19 +3,23 @@ package com.party.parthverma.maithackathong;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
+import android.provider.ContactsContract;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    String[] perms ={"android.permission.CALL_PHONE"};
+    String[] perms ={"android.permission.CALL_PHONE","android.permission.SEND_SMS"};
     int permsRequestCode = 200;
     @Override
     public void onRequestPermissionsResult(int permsRequestCode, String[] permissions, int[] grantResults) {
@@ -68,4 +72,39 @@ public class MainActivity extends AppCompatActivity {
         if(permission == PackageManager.PERMISSION_GRANTED)
             startActivity(intent);
     }
+    public void getMoney(View view)
+    {
+        Uri uri1 = Uri.parse("content://contacts");
+        Intent intent1 = new Intent(Intent.ACTION_PICK, uri1 );
+        intent1.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
+        startActivityForResult(intent1, permsRequestCode);
+
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode,
+                                    Intent intent) {
+        if (requestCode == permsRequestCode) {
+            if (resultCode == RESULT_OK) {
+                Uri uri = intent.getData();
+                String[] projection = { ContactsContract.CommonDataKinds.Phone.NUMBER, ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME };
+
+                Cursor cursor = getContentResolver().query(uri, projection,
+                        null, null, null);
+                cursor.moveToFirst();
+
+                int numberColumnIndex = cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
+                String number = cursor.getString(numberColumnIndex);
+
+                int nameColumnIndex = cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME);
+                String name = cursor.getString(nameColumnIndex);
+
+                Log.d("kasgdhjg", "ZZZ number : " + number +" , name : "+name);
+
+                SmsManager manager = SmsManager.getDefault();
+                manager.sendTextMessage(number,null,"Enter message to send",null,null);
+                Toast.makeText(this,"SMS Sent to "+name,Toast.LENGTH_LONG).show();
+
+            }
+        }
+    };
 }

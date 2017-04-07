@@ -66,6 +66,7 @@
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="147dp"
+            android:onClick="getMoney"
             android:layout_gravity="left"
             android:scaleType="fitCenter"
             android:layout_height="150dp"
