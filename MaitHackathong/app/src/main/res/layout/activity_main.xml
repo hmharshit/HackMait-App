@@ -26,6 +26,7 @@
             android:layout_width="147dp"
             android:layout_gravity="left"
             android:scaleType="fitCenter"
+            android:onClick="callPolice"
             android:layout_height="150dp"
             app:srcCompat="@drawable/ic_police_cap_icon"
             android:layout_weight="0.24" />
@@ -35,6 +36,7 @@
             android:layout_gravity="left"
             android:scaleType="fitCenter"
             android:layout_height="150dp"
+            android:onClick="callFirebrigade"
             app:srcCompat="@drawable/ic_emoji_u1f525"
             android:layout_weight="0.21" />
         <ImageButton
@@ -43,6 +45,7 @@
             android:layout_gravity="left"
             android:scaleType="fitCenter"
             android:layout_height="150dp"
+            android:onClick="callAmbulance"
             app:srcCompat="@drawable/ic_ambulance_icon"
             android:layout_weight="0.21" />
 
@@ -61,6 +64,7 @@
             app:srcCompat="@drawable/ic_indian_rupee_symbol"
             android:layout_weight="0.21" />
     </LinearLayout>
+
 
 
 
