@@ -8,6 +8,14 @@
 
     tools:context="com.party.parthverma.maithackathong.MainActivity"
     android:weightSum="1">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
 
     <ImageButton
@@ -81,8 +89,6 @@
             android:layout_weight="0.21" />
         >
     </LinearLayout>
-
-
 
 
 </LinearLayout>
