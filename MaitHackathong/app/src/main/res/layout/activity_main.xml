@@ -63,6 +63,23 @@
             android:layout_height="150dp"
             app:srcCompat="@drawable/ic_indian_rupee_symbol"
             android:layout_weight="0.21" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="147dp"
+            android:layout_gravity="left"
+            android:scaleType="fitCenter"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/ic_img_23268"
+            android:layout_weight="0.21" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="147dp"
+            android:layout_gravity="left"
+            android:scaleType="fitCenter"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/ic_sos_warning_icon"
+            android:layout_weight="0.21" />
+        >
     </LinearLayout>
 
 
