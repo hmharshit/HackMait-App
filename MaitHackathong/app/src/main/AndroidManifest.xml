@@ -34,7 +34,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
@@ -48,10 +47,7 @@
             android:theme="@style/AppTheme"/>
         <activity android:name=".Remedy"
             android:theme="@style/AppTheme"></activity>
-=======
         <activity android:name=".FirstAid" />
-
->>>>>>> firstaid
     </application>
 
 </manifest>
