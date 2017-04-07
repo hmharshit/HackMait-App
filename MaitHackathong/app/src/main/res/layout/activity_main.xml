@@ -22,6 +22,7 @@
         android:id="@+id/imageButton"
         android:layout_width="match_parent"
         android:layout_gravity="center"
+        android:onClick="goToFirstAids"
         android:scaleType="fitCenter"
         android:layout_height="200dp"
         app:srcCompat="@drawable/ic_first_aid_kit_icon"
@@ -32,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton1"
             android:layout_width="147dp"
             android:layout_gravity="left"
             android:scaleType="fitCenter"
@@ -41,7 +42,7 @@
             app:srcCompat="@drawable/ic_police_cap_icon"
             android:layout_weight="0.24" />
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton2"
             android:layout_width="147dp"
             android:layout_gravity="left"
             android:scaleType="fitCenter"
@@ -50,7 +51,7 @@
             app:srcCompat="@drawable/ic_emoji_u1f525"
             android:layout_weight="0.21" />
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton3"
             android:layout_width="147dp"
             android:layout_gravity="left"
             android:scaleType="fitCenter"
@@ -66,7 +67,7 @@
 
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/imageButton4"
             android:layout_width="147dp"
             android:onClick="getMoney"
             android:layout_gravity="left"

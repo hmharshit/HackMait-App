@@ -19,15 +19,15 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 /**
- * Created by parthverma on 07/04/17.
+ * Created by harshit on 7/4/17.
  */
 
-public class FirstAidAdapter extends BaseAdapter {
+class FirstAidElementAdapter extends BaseAdapter {
     private Context context;
     private LayoutInflater inflater;
-    private ArrayList<FirstAids> data_src;
+    private ArrayList<FirstAidsElement> data_src;
 
-    public FirstAidAdapter(Context context, ArrayList<FirstAids> items) {
+    public FirstAidElementAdapter(Context context, ArrayList<FirstAidsElement> items) {
         this.context = context;
         data_src = items;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -53,12 +53,12 @@ public class FirstAidAdapter extends BaseAdapter {
         if (convertView == null) {
 
             // 2
-            convertView = inflater.inflate(R.layout.first_aid_row_layout, parent, false);
+            convertView = inflater.inflate(R.layout.first_aid_elements, parent, false);
 
             // 3
             holder = new ViewHolder();
-            holder.Image = (ImageView) convertView.findViewById(R.id.image3);
-            holder.title = (TextView) convertView.findViewById(R.id.Title);
+            holder.Image = (ImageView) convertView.findViewById(R.id.image12);
+            holder.title = (TextView) convertView.findViewById(R.id.Title12);
 
             // 4
             convertView.setTag(holder);
@@ -85,10 +85,10 @@ public class FirstAidAdapter extends BaseAdapter {
 
 
 }
-class FirstAids {
+class FirstAidsElement {
     String name,  image_loc;
 
-    public FirstAids(String name, String image_loc) {
+    public FirstAidsElement(String name, String image_loc) {
         this.name = name;
         this.image_loc = image_loc;
 
@@ -119,7 +119,7 @@ class FirstAids {
 
     }
 
-    public static ArrayList<FirstAids> getFirstAid(Context context) {
+    public static ArrayList<FirstAidsElement> getFirstAidElement(Context context) {
         JSONObject obj;
         try {
             obj = new JSONObject(loadJSONFromAsset(context));
@@ -131,18 +131,18 @@ class FirstAids {
         try {
 
 
-            firstaid = obj.getJSONArray("items");
+            firstaid = obj.getJSONArray("subtopic");
         } catch (JSONException ex) {
             ex.printStackTrace();
             return null;
         }
-        ArrayList<FirstAids> clubs = new ArrayList<FirstAids>();
+        ArrayList<FirstAidsElement> clubs = new ArrayList<FirstAidsElement>();
 
         for (int i = 0; i < firstaid.length(); i++) {
-            FirstAids x;
+            FirstAidsElement x;
             try {
                 JSONObject jo = firstaid.getJSONObject(i);
-                x = new FirstAids(jo.getString("title"),jo.getString("url"));
+                x = new FirstAidsElement(jo.getString("name"),jo.getString("main_image_url"));
             } catch (JSONException ex) {
                 ex.printStackTrace();
                 return null;

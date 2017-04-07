@@ -18,8 +18,8 @@ public class FirstAid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first_aid);
         listView = (ListView) findViewById(R.id.first_aid_list);
-        final ArrayList<FAElemenyts> FAlist = FAElemenyts.getClubs(this);
-        FirstAidAdapter adapter = new FirstAidAdapter(this, FAlist);
+        final ArrayList<FirstAids> firstAidList = FirstAids.getFirstAid(this);
+        FirstAidAdapter adapter = new FirstAidAdapter(this, firstAidList);
         listView.setAdapter(adapter);
 
         final Context context = this;
@@ -27,7 +27,7 @@ public class FirstAid extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(context, ClubDetails.class);
+                Intent intent = new Intent(context, FirstAidElements.class);
                 intent.putExtra("position", position);
                 startActivity(intent);
             }
