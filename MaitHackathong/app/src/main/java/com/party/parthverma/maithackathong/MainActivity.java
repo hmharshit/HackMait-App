@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.ContactsContract;
@@ -19,7 +20,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    String[] perms ={"android.permission.CALL_PHONE","android.permission.SEND_SMS"};
+    String[] perms ={"android.permission.CALL_PHONE","android.permission.SEND_SMS","android.permission.READ_CONTACTS"};
     int permsRequestCode = 200;
     @Override
     public void onRequestPermissionsResult(int permsRequestCode, String[] permissions, int[] grantResults) {
@@ -40,13 +41,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar myToolbar=(Toolbar)findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-        getSupportActionBar().setTitle("First Aid");
+        getSupportActionBar().setTitle("Safe");
         ActionBar ab= getSupportActionBar();
         ab.setDisplayHomeAsUpEnabled(true);
 
         Log.d("ABDHABAKS:",Integer.toString(Build.VERSION.SDK_INT));
-        if(Build.VERSION.SDK_INT>Build.VERSION_CODES.LOLLIPOP_MR1)
+        if(Build.VERSION.SDK_INT>22)
             requestPermissions(perms,permsRequestCode);
+
+        SQLiteDatabase mydatabase = openOrCreateDatabase("Safe",MODE_PRIVATE,null);
+
+        mydatabase.execSQL("CREATE TABLE IF NOT EXISTS SOSNumbers(Name VARCHAR,Number VARCHAR);");
+
 
     }
 
@@ -80,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent1, permsRequestCode);
 
     }
+    public void settings(View view){
+        Intent intent= new Intent(this,settings.class);
+        startActivity(intent);
+    }
     @Override
     protected void onActivityResult(int requestCode, int resultCode,
                                     Intent intent) {
@@ -107,4 +117,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
+
+    public void sos(View view)
+    {
+        Intent intent= new Intent(this,sos.class);
+        startActivity(intent);
+    }
 }
