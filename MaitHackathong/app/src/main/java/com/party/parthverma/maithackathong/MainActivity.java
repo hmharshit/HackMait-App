@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sos(View view)
     {
-        Intent intent= new Intent(this,sos.class);\
+        Intent intent= new Intent(this,sos.class);}
     public void goToFirstAids(View view) {
         Intent intent = new Intent(this, FirstAid.class);
         startActivity(intent);
